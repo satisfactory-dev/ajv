@@ -1,0 +1,13 @@
+{
+	"name": "ajv",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "devcontainer",
+	"workspaceFolder": "/app/",
+	"remoteUser": "vscode",
+	"updateRemoteUserUID": true,
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "22"
+		}
+	}
+}
